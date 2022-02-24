@@ -1,0 +1,99 @@
+.featured { 
+    height: 100vh;
+}
+
+.featured--vertical { 
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90% );
+}
+
+.featured--horizontal { 
+
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 30%, transparent 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 70px;
+}
+.filmeDestaque { 
+    
+    
+    
+    padding-left: 30px;
+}
+
+.nomeFilme { 
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.filmeInfo { 
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+   
+  }
+  .pontosFilme, .anoFilme, .numeroTemp { 
+      display: inline-block;
+      
+  }
+.pontosFilme { 
+    margin-right: 15px;
+    color: #46d369;
+    font-weight: bold;
+}
+.anoFilme{ 
+    margin-right: 15px;
+}
+
+.numeroTemp { 
+    color: #111;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+}
+.DescricaoFilme { 
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+
+    font-size: 20px;
+    color: rgb(209, 209, 209);
+    margin-top: 50px;
+}
+.botoes { 
+    margin-top: 15px;
+}
+.botaoassistir, .botaominhalista{ 
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 15px;
+    opacity: 1;
+    transition: all ease 0.2s;
+
+}
+.botaoassistir:hover, .botaominhalista:hover { 
+    opacity: 0.7;
+}
+.botaoassistir { 
+    background-color:#fff;
+    color: #111;
+
+}
+.botaominhalista { 
+    background-color: rgb(119, 119, 119);
+    color: #fff;
+}
+.generoFilme { 
+    margin-top: 15px;
+    font-size: 18px;
+    color: grey;
+    
+}
